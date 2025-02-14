@@ -55,6 +55,13 @@ header {
 
 /*** main ***/
 
+
+
+.m-container {
+    padding: 30px;
+    margin: 0 auto;
+}
+
 /*** footer ***/
 
 footer {
@@ -79,7 +86,7 @@ footer ul {
     flex-wrap: wrap;
 }
 
-footer > div {
+footer>div {
     margin-bottom: 10px;
 }
 
@@ -89,6 +96,10 @@ footer > div {
 
     header {
         text-align: revert;
+    }
+
+    .m-container {
+        padding: 60px;
     }
 }
 
@@ -100,4 +111,6 @@ footer > div {
         align-items: center;
         text-align: revert;
     }
+
+
 }
