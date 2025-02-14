@@ -83,6 +83,7 @@ main {
 .food-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .food-txt {
@@ -98,6 +99,49 @@ main {
 .food-txt ul li {
     margin-bottom: 20px;
 }
+
+.social-container {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+ul.social-container li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+
+.social-container li a {
+    display: inline-block;
+    text-align: center;
+}
+
+.soc-txt {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.fa-facebook {
+    color: #1a77f3;
+}
+
+.fa-twitter {
+    color: #009eff;
+}
+
+.fa-instagram {
+    color: #e67578;
+}
+
+.fa-pinterest,
+.fa-youtube {
+    color: #e62222;
+}
+
 
 /*** footer ***/
 
@@ -139,7 +183,7 @@ footer>div {
         padding: 60px;
     }
 
-    .hidden {
+    .m-container .hidden {
         display: revert;
     }
 
@@ -152,6 +196,9 @@ footer>div {
         width: calc(100% / 3);
     }
 
+    ul.social-container li a {
+        padding: 10px 50px;
+    }
 
 }
 
@@ -176,11 +223,16 @@ footer>div {
         flex-grow: 1;
     }
 
-    .food-txt ul {
+    .food-txt ul,
+    .social-container .soc-txt {
         display: revert;
     }
 
     .food-txt ul li {
         width: revert;
+    }
+
+    ul.social-container li a {
+        padding: 10px 20px;
     }
 }
