@@ -10,3 +10,48 @@ img {
     display: block;
     width: 100%;
 }
+
+
+/* common */
+
+.nerko-one-regular {
+    font-family: "Nerko One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    background-color: #f6f5f3;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+header {
+    background-color: #ffffff;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ff9614;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+/* media query */
+
+@media (min-width: 768px) {
+
+    header {
+        text-align: revert;
+    }
+}
+
+@media (min-width: 992px) {}
