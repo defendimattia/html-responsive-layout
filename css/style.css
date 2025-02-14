@@ -77,6 +77,12 @@ header {
     margin: 0 auto;
 }
 
+.food-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
 /*** footer ***/
 
 footer {
@@ -131,5 +137,15 @@ footer>div {
         text-align: revert;
     }
 
+    .food-container {
+        flex-direction: row;
+    }
 
+    .food-txt {
+        width: 400px;
+    }
+
+    .food-img {
+        flex-grow: 1;
+    }
 }
