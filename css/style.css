@@ -50,6 +50,7 @@ h3 {
 
 h1 {
     color: #4e3969;
+    margin-bottom: 25px;
 }
 
 /*** header ***/
@@ -71,9 +72,11 @@ header {
 /*** main ***/
 
 
+main {
+    padding: 30px;
+}
 
 .m-container {
-    padding: 30px;
     margin: 0 auto;
 }
 
@@ -119,7 +122,7 @@ footer>div {
         text-align: revert;
     }
 
-    .m-container {
+    .main {
         padding: 60px;
     }
 
