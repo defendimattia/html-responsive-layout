@@ -14,6 +14,10 @@ img {
 
 /* common */
 
+.border {
+    border: 1px dashed red;
+}
+
 .nerko-one-regular {
     font-family: "Nerko One", serif;
     font-weight: 400;
@@ -29,7 +33,11 @@ a {
     text-decoration: none;
 }
 
-/* header */
+ul {
+    list-style-type: none;
+}
+
+/*** header ***/
 
 header {
     background-color: #ffffff;
@@ -45,6 +53,34 @@ header {
     text-shadow: 1px 1px 3px #000000;
 }
 
+/*** main ***/
+
+/*** footer ***/
+
+footer {
+    background-color: #7c69a4;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+footer li {
+    text-decoration: underline;
+}
+
+footer li:hover {}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+footer > div {
+    margin-bottom: 10px;
+}
+
 /* media query */
 
 @media (min-width: 768px) {
@@ -54,4 +90,12 @@ header {
     }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: revert;
+    }
+}
