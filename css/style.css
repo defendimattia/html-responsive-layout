@@ -81,12 +81,12 @@ main {
 }
 
 .food-container {
-    background-color: #ffffff;
     display: flex;
     flex-direction: column;
 }
 
 .food-txt {
+    background-color: #ffffff;
     padding: 40px;
 }
 
@@ -94,10 +94,11 @@ main {
     margin-bottom: 30px;
     display: block;
 }
+
 .food-txt ul li {
-    
     margin-bottom: 20px;
 }
+
 /*** footer ***/
 
 footer {
@@ -141,6 +142,17 @@ footer>div {
     .hidden {
         display: revert;
     }
+
+    .food-txt ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .food-txt ul li {
+        width: calc(100% / 3);
+    }
+
+
 }
 
 @media (min-width: 992px) {
@@ -157,10 +169,18 @@ footer>div {
     }
 
     .food-txt {
-        width: 400px;
+        flex-shrink: 0;
     }
 
     .food-img {
         flex-grow: 1;
+    }
+
+    .food-txt ul {
+        display: revert;
+    }
+
+    .food-txt ul li {
+        width: revert;
     }
 }
