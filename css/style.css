@@ -37,6 +37,21 @@ ul {
     list-style-type: none;
 }
 
+.hidden {
+    display: none;
+}
+
+h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #4e3969;
+}
+
 /*** header ***/
 
 header {
@@ -100,6 +115,10 @@ footer>div {
 
     .m-container {
         padding: 60px;
+    }
+
+    .hidden {
+        display: revert;
     }
 }
 
