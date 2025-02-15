@@ -53,6 +53,12 @@ h1 {
     margin-bottom: 25px;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
 /*** header ***/
 
 header {
@@ -143,6 +149,23 @@ ul.social-container li a {
     color: #e62222;
 }
 
+img.banner {
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 100px;
+    height: 3px;
+    border: 0;
+    margin-bottom: 10px;
+    background-color: #f7972e;
+}
+
+.presentation-img {
+    max-width: 375px;
+    margin: 0 auto 10px;
+}
+
 
 /*** footer ***/
 
@@ -200,6 +223,11 @@ footer>div {
 
     ul.social-container li a {
         padding: 10px 50px;
+    }
+
+    .presentation-img {
+        float: left;
+        margin: 0 10px 0 0;
     }
 
 
