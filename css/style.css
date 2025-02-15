@@ -118,6 +118,7 @@ ul.social-container li a {
 .social-container li a {
     display: inline-block;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .soc-txt {
@@ -183,7 +184,8 @@ footer>div {
         padding: 60px;
     }
 
-    .m-container .hidden {
+    .m-container.hidden,
+    .banner.hidden {
         display: revert;
     }
 
@@ -199,6 +201,7 @@ footer>div {
     ul.social-container li a {
         padding: 10px 50px;
     }
+
 
 }
 
